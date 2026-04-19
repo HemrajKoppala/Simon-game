@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body> 
+    <h1>Simon Game</h1>
+    <div class="divide">
+        <button id="but">Game rules</button>
+        <p></p>
+    <h2>Press any key to start the game</h2>
+    <div class="score">
+            
+        </div>
+        </div>
+
+        <div id="overlay" class="overlay">
+  <div class="popup">
+    <span class="close" onclick="closePopup()">❌</span>
+    <h2>How to play?</h2>
+    <ul>
+        <li>Press any key on keyboard to start the game</li>
+        <li>The game begins with level 1
+</li>
+
+<li>The system picks a random color</li>
+<li>The app flashes colors one by one</li>
+<li>Example:<br>
+
+Level 1 → 🔴<br>
+Level 2 → 🔴 🟢<br>
+Level 3 → 🔴 🟢 🔵</li>
+<li>The sequence keeps growing</li>
+<li>Player should clicks buttons in the same order<br> how the system flashes the colors</li>
+<li>Each click is stored in a game</li>
+<li>checks the user clicks with system flashes in a sequence</li>
+<li>After each click</li>
+<li>If correct -> continue the game </li>
+<li>If wrong -> Game over</li>
+<li>If user completes the full sequence:<br>
+->Increase level<br>
+->Add new random color<br>
+->Replay full sequence</li>
+<li>High score is stored</li>
+<li>After game over click any key to restart the game</li>
+    </ul>
+  </div>
+</div>
+    <div class="btnContainer">
+        
+        <div class="line1">
+            <div class="btn red" type = "button" id = "red"></div>
+            <div class="btn green" type = "button" id = "green"></div>
+        </div>
+        <div class="line2">
+            <div class="btn yellow" type = "button" id = yellow></div>
+            <div class="btn blue" type = "button" id = "blue"></div>
+        </div>
+        
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
